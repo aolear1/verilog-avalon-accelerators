@@ -36,6 +36,7 @@ Memory Copy writes from an inputted number of 32-bit words from a source address
 |   1  | destination byte address                            |
 |   2  | source byte address                                 |
 |   3  | number of 32-bit words to copy                      |
+
 The user has the option to stall the CPU until the copy is completed by attepting to read from the base address. The result of this read, however, is undefined.
 ### Dot product accelerator
 This accelerator computs the dot product of two vectors, given the length of each one. Here is the address map:
@@ -76,5 +77,6 @@ The Neural Network Accelerator builds off the Concurrent Dot Product accelerator
 |   5  | input activations vector length                    |
 |   6  | _reserved_                                         |
 |   7  | activation function: 1 if ReLU, 0 if identity      |
-*Note* The output is written through the SRAM facing master, so ensure the address you intend to write to is connected accordingly.
+
+*Note:* The output is written through the SRAM facing master, so ensure the address you intend to write to is connected accordingly.
 
