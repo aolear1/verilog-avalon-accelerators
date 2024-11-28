@@ -18,19 +18,19 @@ A collection of hardware accelerators built using Intel's Avalon Interface.
         paths to any of the accelerators subdirectories.
 
 ## Accelerators
-    ### VGA adapter accelerator
-        This accelerator wraps the [VGA Core](https://www.eecg.utoronto.ca/~jayar/ece241_06F/vga/) to allow for usage by a CPU. The write request
-        consists of a single 32 bit word with address offset 0 with the gollowing encoding:
-        | word offset | bits   | meaning                    |
-        | ---- | ------ | --------------------------------- |
-        |   0  | 30..24 | y coordinate (7 bits)             |
-        |   0  | 23..16 | x coordinate (8 bits)             |
-        |   0  | 7..0   | brightness (0=black, 255=white)   |
-    ### Memory copy accelerator
-        text
-    ### Dot product accelerator
-        text
-    ### Concurrent dot product accelerator
-        text
-    ### Neural network accelerator
-        text
+### VGA adapter accelerator
+This accelerator wraps the [VGA Core](https://www.eecg.utoronto.ca/~jayar/ece241_06F/vga/) to allow for usage by a CPU. The write request
+consists of a single 32 bit word with address offset 0 with the gollowing encoding:
+| word offset | bits   | meaning                    |
+| ---- | ------ | --------------------------------- |
+|   0  | 30..24 | y coordinate (7 bits)             |
+|   0  | 23..16 | x coordinate (8 bits)             |
+|   0  | 7..0   | brightness (0=black, 255=white)   |
+### Memory copy accelerator
+text
+### Dot product accelerator
+text
+### Concurrent dot product accelerator
+text
+### Neural network accelerator
+text
