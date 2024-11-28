@@ -14,8 +14,8 @@ A collection of hardware accelerators built using Intel's Avalon Interface.
 
 
 ## Instuctions
-        To use any one of these accelerators, open Quartus and navigate to _Tools&rarr;Options&rarr;IP Catalog Search Locations_ then add the
-        paths to any of the accelerators subdirectories.
+To use any one of these accelerators, open Quartus and navigate to _Tools&rarr;Options&rarr;IP Catalog Search Locations_ then add the
+paths to any of the accelerators subdirectories.
 
 ## Accelerators
 ### VGA adapter accelerator
