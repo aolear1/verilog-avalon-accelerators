@@ -5,7 +5,7 @@ A collection of hardware accelerators built using Intel's Avalon Interface.
 
 * [Instructions](#instructions)
 
-* [Acceleratos](#accelerators)
+* [Accelerators](#accelerators)
   * [VGA adapter accelerator](#vga-adapter-accelerator)
   * [Memory copy accelerator](#memory-copy-accelerator)
   * [Dot product accelerator](#dot-product-accelerator)
